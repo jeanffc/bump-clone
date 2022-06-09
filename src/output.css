@@ -644,6 +644,22 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
 
+.bg-\[url\(\'https\:\/\/replay\.software\/bump\/images\/Blue\.png\'\)\] {
+  background-image: url('https://replay.software/bump/images/Blue.png');
+}
+
+.bg-\[url\(\'https\:\/\/replay\.software\/bump\/images\/Pink\.png\'\)\] {
+  background-image: url('https://replay.software/bump/images/Pink.png');
+}
+
+.bg-\[url\(\'https\:\/\/replay\.software\/bump\/images\/Yellow\.png\'\)\] {
+  background-image: url('https://replay.software/bump/images/Yellow.png');
+}
+
+.bg-\[url\(\'https\:\/\/replay\.software\/bump\/images\/Green\.png\'\)\] {
+  background-image: url('https://replay.software/bump/images/Green.png');
+}
+
 .from-blue-100 {
   --tw-gradient-from: #dbeafe;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(219 234 254 / 0));
